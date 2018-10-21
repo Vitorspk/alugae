@@ -7,6 +7,17 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		89009F15217C98B6007579EE /* 11.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 89009F0A217C98B5007579EE /* 11.jpeg */; };
+		89009F16217C98B6007579EE /* 06.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 89009F0B217C98B6007579EE /* 06.jpeg */; };
+		89009F17217C98B6007579EE /* 07.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 89009F0C217C98B6007579EE /* 07.jpeg */; };
+		89009F18217C98B6007579EE /* 03.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 89009F0D217C98B6007579EE /* 03.jpeg */; };
+		89009F19217C98B6007579EE /* 02.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 89009F0E217C98B6007579EE /* 02.jpeg */; };
+		89009F1A217C98B6007579EE /* 08.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 89009F0F217C98B6007579EE /* 08.jpeg */; };
+		89009F1B217C98B6007579EE /* 05.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 89009F10217C98B6007579EE /* 05.jpeg */; };
+		89009F1C217C98B6007579EE /* 09.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 89009F11217C98B6007579EE /* 09.jpeg */; };
+		89009F1D217C98B6007579EE /* 10.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 89009F12217C98B6007579EE /* 10.jpeg */; };
+		89009F1E217C98B6007579EE /* 04.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 89009F13217C98B6007579EE /* 04.jpeg */; };
+		89009F1F217C98B6007579EE /* 01.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 89009F14217C98B6007579EE /* 01.jpeg */; };
 		892E6729217C40EC00D3CF13 /* tela1.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 892E6728217C40EC00D3CF13 /* tela1.jpeg */; };
 		895B883F217C315D00FED6E8 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 895B883E217C315D00FED6E8 /* AppDelegate.swift */; };
 		895B8841217C315D00FED6E8 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 895B8840217C315D00FED6E8 /* ViewController.swift */; };
@@ -16,6 +27,17 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		89009F0A217C98B5007579EE /* 11.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 11.jpeg; sourceTree = "<group>"; };
+		89009F0B217C98B6007579EE /* 06.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 06.jpeg; sourceTree = "<group>"; };
+		89009F0C217C98B6007579EE /* 07.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 07.jpeg; sourceTree = "<group>"; };
+		89009F0D217C98B6007579EE /* 03.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 03.jpeg; sourceTree = "<group>"; };
+		89009F0E217C98B6007579EE /* 02.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 02.jpeg; sourceTree = "<group>"; };
+		89009F0F217C98B6007579EE /* 08.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 08.jpeg; sourceTree = "<group>"; };
+		89009F10217C98B6007579EE /* 05.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 05.jpeg; sourceTree = "<group>"; };
+		89009F11217C98B6007579EE /* 09.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 09.jpeg; sourceTree = "<group>"; };
+		89009F12217C98B6007579EE /* 10.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 10.jpeg; sourceTree = "<group>"; };
+		89009F13217C98B6007579EE /* 04.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 04.jpeg; sourceTree = "<group>"; };
+		89009F14217C98B6007579EE /* 01.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 01.jpeg; sourceTree = "<group>"; };
 		892E6728217C40EC00D3CF13 /* tela1.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = tela1.jpeg; sourceTree = "<group>"; };
 		895B883B217C315D00FED6E8 /* alugae.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = alugae.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		895B883E217C315D00FED6E8 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -62,6 +84,17 @@
 				895B8845217C315E00FED6E8 /* Assets.xcassets */,
 				895B8847217C315E00FED6E8 /* LaunchScreen.storyboard */,
 				892E6728217C40EC00D3CF13 /* tela1.jpeg */,
+				89009F14217C98B6007579EE /* 01.jpeg */,
+				89009F0E217C98B6007579EE /* 02.jpeg */,
+				89009F0D217C98B6007579EE /* 03.jpeg */,
+				89009F13217C98B6007579EE /* 04.jpeg */,
+				89009F10217C98B6007579EE /* 05.jpeg */,
+				89009F0B217C98B6007579EE /* 06.jpeg */,
+				89009F0C217C98B6007579EE /* 07.jpeg */,
+				89009F0F217C98B6007579EE /* 08.jpeg */,
+				89009F11217C98B6007579EE /* 09.jpeg */,
+				89009F12217C98B6007579EE /* 10.jpeg */,
+				89009F0A217C98B5007579EE /* 11.jpeg */,
 				895B884A217C315E00FED6E8 /* Info.plist */,
 			);
 			path = alugae;
@@ -125,10 +158,21 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				89009F1C217C98B6007579EE /* 09.jpeg in Resources */,
 				895B8849217C315E00FED6E8 /* LaunchScreen.storyboard in Resources */,
 				892E6729217C40EC00D3CF13 /* tela1.jpeg in Resources */,
+				89009F1F217C98B6007579EE /* 01.jpeg in Resources */,
 				895B8846217C315E00FED6E8 /* Assets.xcassets in Resources */,
+				89009F19217C98B6007579EE /* 02.jpeg in Resources */,
+				89009F16217C98B6007579EE /* 06.jpeg in Resources */,
 				895B8844217C315D00FED6E8 /* Main.storyboard in Resources */,
+				89009F1E217C98B6007579EE /* 04.jpeg in Resources */,
+				89009F1B217C98B6007579EE /* 05.jpeg in Resources */,
+				89009F1D217C98B6007579EE /* 10.jpeg in Resources */,
+				89009F15217C98B6007579EE /* 11.jpeg in Resources */,
+				89009F18217C98B6007579EE /* 03.jpeg in Resources */,
+				89009F17217C98B6007579EE /* 07.jpeg in Resources */,
+				89009F1A217C98B6007579EE /* 08.jpeg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

@@ -17,8 +17,8 @@
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" image="tela1.jpeg" translatesAutoresizingMaskIntoConstraints="NO" id="0nw-z8-UFe">
-                                <rect key="frame" x="0.0" y="1" width="375" height="666"/>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" image="02.jpeg" translatesAutoresizingMaskIntoConstraints="NO" id="0nw-z8-UFe">
+                                <rect key="frame" x="0.0" y="1" width="375" height="667"/>
                             </imageView>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="kgr-5I-wBp">
                                 <rect key="frame" x="16" y="64" width="343" height="583"/>
@@ -42,7 +42,7 @@
             </objects>
             <point key="canvasLocation" x="992.79999999999995" y="-634.632683658171"/>
         </scene>
-        <!--tela 1-->
+        <!--View Controller-->
         <scene sceneID="tne-QT-ifu">
             <objects>
                 <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="alugae" customModuleProvider="target" sceneMemberID="viewController">
@@ -50,7 +50,7 @@
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" image="tela1.jpeg" translatesAutoresizingMaskIntoConstraints="NO" id="IVD-Rn-NH0">
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" image="01.jpeg" translatesAutoresizingMaskIntoConstraints="NO" id="IVD-Rn-NH0">
                                 <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                             </imageView>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="z2v-eF-jHG">
@@ -75,7 +75,7 @@
                             </mask>
                         </variation>
                     </view>
-                    <navigationItem key="navigationItem" title="tela 1" id="wBG-7z-teR"/>
+                    <navigationItem key="navigationItem" id="wBG-7z-teR"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
@@ -107,11 +107,11 @@
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" image="tela1.jpeg" translatesAutoresizingMaskIntoConstraints="NO" id="tgG-wH-eP6">
-                                <rect key="frame" x="0.0" y="1" width="375" height="667"/>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" image="03.jpeg" translatesAutoresizingMaskIntoConstraints="NO" id="tgG-wH-eP6">
+                                <rect key="frame" x="0.0" y="1" width="375" height="717"/>
                             </imageView>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="gbk-nw-AGW">
-                                <rect key="frame" x="27" y="64" width="332" height="583"/>
+                                <rect key="frame" x="21" y="131" width="332" height="557"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="."/>
                                 <connections>
@@ -140,7 +140,7 @@
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" image="tela1.jpeg" translatesAutoresizingMaskIntoConstraints="NO" id="MBa-fQ-2Zd">
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" image="04.jpeg" translatesAutoresizingMaskIntoConstraints="NO" id="MBa-fQ-2Zd">
                                 <rect key="frame" x="0.0" y="1" width="375" height="666"/>
                             </imageView>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="NLT-bU-qEz">
@@ -173,7 +173,7 @@
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" image="tela1.jpeg" translatesAutoresizingMaskIntoConstraints="NO" id="7cL-tX-PpC">
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" image="05.jpeg" translatesAutoresizingMaskIntoConstraints="NO" id="7cL-tX-PpC">
                                 <rect key="frame" x="0.0" y="1" width="375" height="666"/>
                             </imageView>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="8Q1-AY-QMt">
@@ -206,7 +206,7 @@
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" image="tela1.jpeg" translatesAutoresizingMaskIntoConstraints="NO" id="p2v-Jr-UHt">
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" image="06.jpeg" translatesAutoresizingMaskIntoConstraints="NO" id="p2v-Jr-UHt">
                                 <rect key="frame" x="0.0" y="1" width="375" height="666"/>
                             </imageView>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="T2q-rn-HBr">
@@ -239,8 +239,8 @@
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" image="tela1.jpeg" translatesAutoresizingMaskIntoConstraints="NO" id="uGj-f8-jSw">
-                                <rect key="frame" x="0.0" y="1" width="375" height="667"/>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" image="07.jpeg" translatesAutoresizingMaskIntoConstraints="NO" id="uGj-f8-jSw">
+                                <rect key="frame" x="0.0" y="1" width="375" height="666"/>
                             </imageView>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="vrz-4z-2CB">
                                 <rect key="frame" x="32" y="64" width="310" height="583"/>
@@ -272,8 +272,8 @@
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" image="tela1.jpeg" translatesAutoresizingMaskIntoConstraints="NO" id="Zd0-Qm-ETu">
-                                <rect key="frame" x="0.0" y="1" width="375" height="667"/>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" image="08.jpeg" translatesAutoresizingMaskIntoConstraints="NO" id="Zd0-Qm-ETu">
+                                <rect key="frame" x="0.0" y="1" width="375" height="666"/>
                             </imageView>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="U9s-Gd-cwx">
                                 <rect key="frame" x="16" y="84" width="343" height="563"/>
@@ -305,13 +305,16 @@
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" image="tela1.jpeg" translatesAutoresizingMaskIntoConstraints="NO" id="Iw9-fQ-8be">
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" image="09.jpeg" translatesAutoresizingMaskIntoConstraints="NO" id="Iw9-fQ-8be">
                                 <rect key="frame" x="0.0" y="1" width="375" height="667"/>
                             </imageView>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="M7Z-1T-adE">
                                 <rect key="frame" x="16" y="60" width="343" height="587"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="."/>
+                                <connections>
+                                    <segue destination="EyD-Vg-QiH" kind="show" id="AI4-CF-VqJ"/>
+                                </connections>
                             </button>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
@@ -325,10 +328,83 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="BbB-IB-cKL" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="28" y="-705.69715142428788"/>
+            <point key="canvasLocation" x="54" y="-767"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="cIG-c2-oE7">
+            <objects>
+                <viewController id="EyD-Vg-QiH" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="ocR-nb-RIY">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" image="10.jpeg" translatesAutoresizingMaskIntoConstraints="NO" id="I4x-F6-a6Y">
+                                <rect key="frame" x="0.0" y="1" width="375" height="667"/>
+                            </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="i4X-pD-iCI">
+                                <rect key="frame" x="16" y="60" width="343" height="587"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="."/>
+                                <connections>
+                                    <segue destination="Gwz-gk-bZ4" kind="show" id="U9f-Ib-QiM"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstAttribute="bottom" secondItem="I4x-F6-a6Y" secondAttribute="bottom" id="GdU-BT-lBw"/>
+                            <constraint firstItem="I4x-F6-a6Y" firstAttribute="top" secondItem="ocR-nb-RIY" secondAttribute="top" constant="1" id="Tqq-nB-ZKv"/>
+                            <constraint firstItem="I4x-F6-a6Y" firstAttribute="bottomMargin" secondItem="ocR-nb-RIY" secondAttribute="topMargin" id="X75-pb-594"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="G2x-xU-LH7"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="S1U-R2-vMt" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="838" y="-1433"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="mMc-IL-GLz">
+            <objects>
+                <viewController id="Gwz-gk-bZ4" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="Gfv-1C-o2b">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" image="11.jpeg" translatesAutoresizingMaskIntoConstraints="NO" id="HHb-Bp-FAl">
+                                <rect key="frame" x="0.0" y="1" width="375" height="667"/>
+                            </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="flN-SI-TiX">
+                                <rect key="frame" x="16" y="60" width="343" height="587"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="."/>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="HHb-Bp-FAl" firstAttribute="top" secondItem="Gfv-1C-o2b" secondAttribute="top" constant="1" id="Eur-J0-quP"/>
+                            <constraint firstAttribute="bottom" secondItem="HHb-Bp-FAl" secondAttribute="bottom" id="LVB-FI-gVK"/>
+                            <constraint firstItem="HHb-Bp-FAl" firstAttribute="bottomMargin" secondItem="Gfv-1C-o2b" secondAttribute="topMargin" id="Tvq-j4-MGg"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="ol7-bb-dQ4"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="jPs-AI-HqB" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1834" y="-1253"/>
         </scene>
     </scenes>
     <resources>
-        <image name="tela1.jpeg" width="375" height="667"/>
+        <image name="01.jpeg" width="375" height="667"/>
+        <image name="02.jpeg" width="375" height="667"/>
+        <image name="03.jpeg" width="375" height="717"/>
+        <image name="04.jpeg" width="375" height="667"/>
+        <image name="05.jpeg" width="375" height="667"/>
+        <image name="06.jpeg" width="375" height="667"/>
+        <image name="07.jpeg" width="375" height="667"/>
+        <image name="08.jpeg" width="375" height="667"/>
+        <image name="09.jpeg" width="375" height="667"/>
+        <image name="10.jpeg" width="375" height="667"/>
+        <image name="11.jpeg" width="375" height="667"/>
     </resources>
 </document>
