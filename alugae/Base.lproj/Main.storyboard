@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14313.18" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14313.18" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="CkX-iz-pOy">
     <device id="retina4_7" orientation="portrait">
         <adaptation id="fullscreen"/>
     </device>
@@ -10,18 +10,325 @@
     </dependencies>
     <scenes>
         <!--View Controller-->
+        <scene sceneID="nlA-fW-v5z">
+            <objects>
+                <viewController id="Iqe-3p-mET" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="xgg-bz-ZkF">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" image="tela1.jpeg" translatesAutoresizingMaskIntoConstraints="NO" id="0nw-z8-UFe">
+                                <rect key="frame" x="0.0" y="1" width="375" height="666"/>
+                            </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="kgr-5I-wBp">
+                                <rect key="frame" x="16" y="64" width="343" height="583"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="."/>
+                                <connections>
+                                    <segue destination="gTL-u8-y9L" kind="show" id="3wY-AK-Vif"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="0nw-z8-UFe" firstAttribute="top" secondItem="xgg-bz-ZkF" secondAttribute="top" constant="1" id="GXo-0X-cpS"/>
+                            <constraint firstAttribute="bottom" secondItem="0nw-z8-UFe" secondAttribute="bottom" id="kSM-wZ-HFc"/>
+                            <constraint firstItem="0nw-z8-UFe" firstAttribute="bottomMargin" secondItem="xgg-bz-ZkF" secondAttribute="topMargin" id="xVh-5g-19s"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="hrM-KX-AEF"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="kIA-G5-g7t" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="992.79999999999995" y="-634.632683658171"/>
+        </scene>
+        <!--tela 1-->
         <scene sceneID="tne-QT-ifu">
             <objects>
                 <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="alugae" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <color key="backgroundColor" red="0.0" green="0.47843137250000001" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" image="tela1.jpeg" translatesAutoresizingMaskIntoConstraints="NO" id="IVD-Rn-NH0">
+                                <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                            </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="z2v-eF-jHG">
+                                <rect key="frame" x="16" y="64" width="343" height="583"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="."/>
+                                <connections>
+                                    <segue destination="Iqe-3p-mET" kind="show" id="rhd-aX-8Vj"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" red="0.99999600649999998" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstAttribute="bottom" secondItem="IVD-Rn-NH0" secondAttribute="bottom" id="N8z-33-HFQ"/>
+                            <constraint firstItem="IVD-Rn-NH0" firstAttribute="bottomMargin" secondItem="8bC-Xf-vdC" secondAttribute="topMargin" id="tO2-c2-kxJ"/>
+                            <constraint firstItem="IVD-Rn-NH0" firstAttribute="top" secondItem="8bC-Xf-vdC" secondAttribute="top" id="xu7-Vh-x2q"/>
+                        </constraints>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                        <variation key="default">
+                            <mask key="constraints">
+                                <exclude reference="tO2-c2-kxJ"/>
+                            </mask>
+                        </variation>
                     </view>
+                    <navigationItem key="navigationItem" title="tela 1" id="wBG-7z-teR"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
+            <point key="canvasLocation" x="992.79999999999995" y="26.53673163418291"/>
+        </scene>
+        <!--Navigation Controller-->
+        <scene sceneID="P5T-54-hUX">
+            <objects>
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="CkX-iz-pOy" sceneMemberID="viewController">
+                    <toolbarItems/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="oWZ-d3-K24">
+                        <rect key="frame" x="0.0" y="20" width="375" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="BYZ-38-t0r" kind="relationship" relationship="rootViewController" id="CX5-Eu-KTX"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="ab1-hl-5aZ" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="53.600000000000001" y="26.53673163418291"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="C8c-hd-Xbd">
+            <objects>
+                <viewController id="gTL-u8-y9L" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="wt5-X3-GFX">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" image="tela1.jpeg" translatesAutoresizingMaskIntoConstraints="NO" id="tgG-wH-eP6">
+                                <rect key="frame" x="0.0" y="1" width="375" height="667"/>
+                            </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="gbk-nw-AGW">
+                                <rect key="frame" x="27" y="64" width="332" height="583"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="."/>
+                                <connections>
+                                    <segue destination="VOE-X2-CRs" kind="show" id="dEG-Bp-Igq"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="tgG-wH-eP6" firstAttribute="top" secondItem="wt5-X3-GFX" secondAttribute="top" constant="1" id="Ltt-By-GXl"/>
+                            <constraint firstItem="tgG-wH-eP6" firstAttribute="bottomMargin" secondItem="wt5-X3-GFX" secondAttribute="topMargin" id="gvi-R1-J3w"/>
+                            <constraint firstAttribute="bottom" secondItem="tgG-wH-eP6" secondAttribute="bottom" id="zCQ-y3-8pc"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="wct-0m-wKA"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="0Oo-24-hnM" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1888.8" y="-421.43928035982015"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="mIa-Ds-Fwh">
+            <objects>
+                <viewController id="VOE-X2-CRs" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="llX-uQ-nyu">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" image="tela1.jpeg" translatesAutoresizingMaskIntoConstraints="NO" id="MBa-fQ-2Zd">
+                                <rect key="frame" x="0.0" y="1" width="375" height="666"/>
+                            </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="NLT-bU-qEz">
+                                <rect key="frame" x="29" y="64" width="310" height="583"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="."/>
+                                <connections>
+                                    <segue destination="sKZ-uW-Rt6" kind="show" id="EtF-G5-nP0"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="MBa-fQ-2Zd" firstAttribute="top" secondItem="llX-uQ-nyu" secondAttribute="top" constant="1" id="2iB-vP-EtQ"/>
+                            <constraint firstAttribute="bottom" secondItem="MBa-fQ-2Zd" secondAttribute="bottom" id="DsV-2Z-sdO"/>
+                            <constraint firstItem="MBa-fQ-2Zd" firstAttribute="bottomMargin" secondItem="llX-uQ-nyu" secondAttribute="topMargin" id="rJQ-ii-pKT"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="pXO-cd-Rig"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="ULB-0h-Wc5" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1888.8" y="272.11394302848578"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="YLe-ys-KaK">
+            <objects>
+                <viewController id="sKZ-uW-Rt6" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="czC-eb-LYr">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" image="tela1.jpeg" translatesAutoresizingMaskIntoConstraints="NO" id="7cL-tX-PpC">
+                                <rect key="frame" x="0.0" y="1" width="375" height="666"/>
+                            </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="8Q1-AY-QMt">
+                                <rect key="frame" x="32" y="64" width="310" height="583"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="."/>
+                                <connections>
+                                    <segue destination="5nC-hL-Cim" kind="show" id="5Jz-y5-LrN"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="7cL-tX-PpC" firstAttribute="bottomMargin" secondItem="czC-eb-LYr" secondAttribute="topMargin" id="BiR-r4-AWt"/>
+                            <constraint firstItem="7cL-tX-PpC" firstAttribute="top" secondItem="czC-eb-LYr" secondAttribute="top" constant="1" id="fAq-di-iWq"/>
+                            <constraint firstAttribute="bottom" secondItem="7cL-tX-PpC" secondAttribute="bottom" id="qGZ-yk-Fsb"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="oce-6t-AbW"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Fdt-9S-Z6b" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="993" y="722"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="Yzc-Yp-GSj">
+            <objects>
+                <viewController id="5nC-hL-Cim" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="4fu-og-urY">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" image="tela1.jpeg" translatesAutoresizingMaskIntoConstraints="NO" id="p2v-Jr-UHt">
+                                <rect key="frame" x="0.0" y="1" width="375" height="666"/>
+                            </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="T2q-rn-HBr">
+                                <rect key="frame" x="32" y="64" width="310" height="583"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="."/>
+                                <connections>
+                                    <segue destination="Rzw-iF-iRF" kind="show" id="fHZ-Gq-MqB"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="p2v-Jr-UHt" firstAttribute="top" secondItem="4fu-og-urY" secondAttribute="top" constant="1" id="M3k-kN-Wtt"/>
+                            <constraint firstItem="p2v-Jr-UHt" firstAttribute="bottomMargin" secondItem="4fu-og-urY" secondAttribute="topMargin" id="ORX-UM-kY0"/>
+                            <constraint firstAttribute="bottom" secondItem="p2v-Jr-UHt" secondAttribute="bottom" id="W0T-T3-mxn"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="gSc-NT-WhC"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="n64-Rt-fKf" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="54" y="722"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="Yo9-wd-EyO">
+            <objects>
+                <viewController id="Rzw-iF-iRF" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="be1-ry-Dy9">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" image="tela1.jpeg" translatesAutoresizingMaskIntoConstraints="NO" id="uGj-f8-jSw">
+                                <rect key="frame" x="0.0" y="1" width="375" height="667"/>
+                            </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="vrz-4z-2CB">
+                                <rect key="frame" x="32" y="64" width="310" height="583"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="."/>
+                                <connections>
+                                    <segue destination="lJD-Vc-ipk" kind="show" id="nAc-ge-pGq"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstAttribute="bottom" secondItem="uGj-f8-jSw" secondAttribute="bottom" id="53D-GJ-2gj"/>
+                            <constraint firstItem="uGj-f8-jSw" firstAttribute="top" secondItem="be1-ry-Dy9" secondAttribute="top" constant="1" id="G37-Ag-Dwe"/>
+                            <constraint firstItem="uGj-f8-jSw" firstAttribute="bottomMargin" secondItem="be1-ry-Dy9" secondAttribute="topMargin" id="jn2-WO-4qX"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="axZ-YM-FKy"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="FNn-F5-mKi" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-751" y="528"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="FJh-dL-qzm">
+            <objects>
+                <viewController id="lJD-Vc-ipk" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="taj-IN-bLI">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" image="tela1.jpeg" translatesAutoresizingMaskIntoConstraints="NO" id="Zd0-Qm-ETu">
+                                <rect key="frame" x="0.0" y="1" width="375" height="667"/>
+                            </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="U9s-Gd-cwx">
+                                <rect key="frame" x="16" y="84" width="343" height="563"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="."/>
+                                <connections>
+                                    <segue destination="J9S-jh-Lb6" kind="show" id="kb9-aX-BWH"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstAttribute="bottom" secondItem="Zd0-Qm-ETu" secondAttribute="bottom" id="LpT-Sy-AMf"/>
+                            <constraint firstItem="Zd0-Qm-ETu" firstAttribute="top" secondItem="taj-IN-bLI" secondAttribute="top" constant="1" id="r2g-Ze-imj"/>
+                            <constraint firstItem="Zd0-Qm-ETu" firstAttribute="bottomMargin" secondItem="taj-IN-bLI" secondAttribute="topMargin" id="wxe-nx-5j6"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="reL-1c-62S"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Mgv-ST-Ojo" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-727.20000000000005" y="-223.53823088455775"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="rZu-4n-XDw">
+            <objects>
+                <viewController id="J9S-jh-Lb6" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="oLc-el-bgn">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" image="tela1.jpeg" translatesAutoresizingMaskIntoConstraints="NO" id="Iw9-fQ-8be">
+                                <rect key="frame" x="0.0" y="1" width="375" height="667"/>
+                            </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="M7Z-1T-adE">
+                                <rect key="frame" x="16" y="60" width="343" height="587"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="."/>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="Iw9-fQ-8be" firstAttribute="bottomMargin" secondItem="oLc-el-bgn" secondAttribute="topMargin" id="IZX-ld-KEm"/>
+                            <constraint firstItem="Iw9-fQ-8be" firstAttribute="top" secondItem="oLc-el-bgn" secondAttribute="top" constant="1" id="V8i-Os-mtH"/>
+                            <constraint firstAttribute="bottom" secondItem="Iw9-fQ-8be" secondAttribute="bottom" id="dvS-vn-Xch"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="5E2-U9-N81"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="BbB-IB-cKL" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="28" y="-705.69715142428788"/>
         </scene>
     </scenes>
+    <resources>
+        <image name="tela1.jpeg" width="375" height="667"/>
+    </resources>
 </document>
